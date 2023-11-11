@@ -1,0 +1,10 @@
+export const emailIcon = require('../images/email.png');
+export const passwordIcon = require('../images/password.png');
+export const emailColorIcon = require('../images/EmailColor.png');
+export const passwordColorIcon = require('../images/PasswordColor.png');
+export const Rnicon = require('../images/Rnicon.png');
+export const HomeBlack = require('../images/home_black.png');
+export const HomeUnfilled = require('../images/home_unfilled.png');
+export const profile = require('../images/profile.png');
+export const starBlack = require('../images/star_black.png');
+export const starUnfilled = require('../images/star_unfilled.png');
