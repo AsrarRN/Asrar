@@ -1,4 +1,4 @@
-import React, {useCallback, useEffect, useRef, useState} from 'react';
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import {
   ActivityIndicator,
   FlatList,
@@ -9,19 +9,19 @@ import {
   Text,
   TouchableOpacity,
   View,
-} from 'react-native';
-import {normalize} from '../../Common/Normalize';
+} from "react-native";
+import { normalize } from "../../Common/Normalize";
 import {
   HomeBlack,
   HomeUnfilled,
   starBlack,
   starUnfilled,
-} from '../../assets/images';
-import {useDispatch, useSelector} from 'react-redux';
-import {GetHomeDetails} from '../../store/actions/HomeActions';
-import {HOME_DETAILS} from '../../store/types';
-import {Colors} from '../../Common/Colours';
-import styles from './styles';
+} from "../../assets/images";
+import { useDispatch, useSelector } from "react-redux";
+import { GetHomeDetails } from "../../store/actions/HomeActions";
+import { HOME_DETAILS } from "../../store/types";
+import { Colors } from "../../Common/Colours";
+import styles from "./styles";
 
 // Page size
 const PAGE_SIZE = 1;
@@ -35,10 +35,10 @@ export default function TabScreen() {
   const [refreshing, setRefreshing] = useState(false);
   const [page, setPage] = useState(1);
   const [HomeData, setHomeData] = useState([]);
-  const {CommonReducer} = useSelector(state => ({
+  const { CommonReducer } = useSelector((state) => ({
     CommonReducer: state.CommonReducer,
   }));
-  const {HomeReducer} = useSelector(state => ({
+  const { HomeReducer } = useSelector((state) => ({
     HomeReducer: state.HomeReducer,
   }));
 
@@ -88,12 +88,12 @@ export default function TabScreen() {
             let resData = response?.results;
 
             // default isselected false to every star value
-            resData.map(e => (e.isSelected = false));
+            resData.map((e) => (e.isSelected = false));
 
             if (response.info?.page !== 1) {
-              let homeIds = HomeData.map(item => item.login?.uuid);
+              let homeIds = HomeData.map((item) => item.login?.uuid);
               resData = resData.filter(
-                item => homeIds.indexOf(item.login?.uuid) == -1,
+                (item) => homeIds.indexOf(item.login?.uuid) == -1
               );
               if (HomeData.length > 0) {
                 setHomeData([...HomeData, ...resData]);
@@ -113,7 +113,7 @@ export default function TabScreen() {
     }
   }
 
-  const selectUnselecteItem = item => {
+  const selectUnselecteItem = (item) => {
     item.isSelected = !item.isSelected;
     let data = [...HomeData];
     setHomeData(data);
@@ -128,7 +128,7 @@ export default function TabScreen() {
     }
   };
 
-  const _onEndReached = async updatedPage => {
+  const _onEndReached = async (updatedPage) => {
     dispatch(GetHomeDetails(updatedPage));
   };
 
@@ -137,7 +137,7 @@ export default function TabScreen() {
       //Footer View with Load More
       HomeData.length < total ? (
         <View style={styles.footer}>
-          <Text style={{fontSize: normalize(15), color: Colors.black}}>
+          <Text style={{ fontSize: normalize(15), color: Colors.black }}>
             Loading...
           </Text>
         </View>
@@ -153,11 +153,11 @@ export default function TabScreen() {
     }
   };
 
-  const _renderItemHome = useCallback(({item, index}) =>
-    _renderItems({item, index}),
+  const _renderItemHome = useCallback(({ item, index }) =>
+    _renderItems({ item, index })
   );
 
-  const _renderItems = ({item, index}) => {
+  const _renderItems = ({ item, index }) => {
     return (
       <TouchableOpacity
         key={index.toString()}
@@ -165,10 +165,11 @@ export default function TabScreen() {
         onPress={() => {
           selectUnselecteItem(item);
         }}
-        style={styles.style5}>
+        style={styles.style5}
+      >
         <View style={styles.style6}>
           <Image
-            source={{uri: item?.picture?.thumbnail}}
+            source={{ uri: item?.picture?.thumbnail }}
             resizeMode="contain"
             style={styles.style7}
           />
@@ -176,7 +177,7 @@ export default function TabScreen() {
         <View style={styles.style8}>
           <View style={styles.style9}>
             <Text style={styles.style10}>
-              {item?.name?.first + ' ' + item?.name?.last}
+              {item?.name?.first + " " + item?.name?.last}
             </Text>
 
             <View style={styles.style11}>
@@ -194,11 +195,11 @@ export default function TabScreen() {
     );
   };
 
-  const _renderItemfavroute = useCallback(({item, index}) =>
-    _renderFavItem({item, index}),
+  const _renderItemfavroute = useCallback(({ item, index }) =>
+    _renderFavItem({ item, index })
   );
 
-  const _renderFavItem = ({item, index}) => {
+  const _renderFavItem = ({ item, index }) => {
     return (
       item.isSelected && (
         <TouchableOpacity
@@ -206,18 +207,19 @@ export default function TabScreen() {
           activeOpacity={0.5}
           onPress={() => {
             selectUnselecteItem(item);
-          }}>
+          }}
+        >
           <View style={styles.style15}>
             <View style={styles.style16}>
               <Image
-                source={{uri: item?.picture?.thumbnail}}
+                source={{ uri: item?.picture?.thumbnail }}
                 resizeMode="contain"
                 style={styles.style7}
               />
             </View>
             <View style={styles.style17}>
               <Text style={styles.style18}>
-                {item?.name?.first + ' ' + item?.name?.last}
+                {item?.name?.first + " " + item?.name?.last}
               </Text>
             </View>
             <View style={styles.style19}>
@@ -237,7 +239,7 @@ export default function TabScreen() {
     <SafeAreaView style={styles.safeArea}>
       {selectedTab === 1 ? (
         <View style={styles.listCommonview}>
-          {HomeData && HomeData.some(e => e.isSelected === true) ? (
+          {HomeData && HomeData.some((e) => e.isSelected === true) ? (
             <FlatList
               data={HomeData}
               keyExtractor={(_, index) => `FAV-${index}`}
@@ -293,11 +295,12 @@ export default function TabScreen() {
             setSelectedTab(0);
           }}
           style={[
-            {flex: 1, justifyContent: 'center', alignItems: 'center'},
+            { flex: 1, justifyContent: "center", alignItems: "center" },
             selectedTab == 0
-              ? {borderTopWidth: normalize(3), borderColor: Colors.lightpink}
+              ? { borderTopWidth: normalize(3), borderColor: Colors.lightpink }
               : {},
-          ]}>
+          ]}
+        >
           <Image
             source={selectedTab == 0 ? HomeBlack : HomeUnfilled}
             resizeMode="contain"
@@ -306,17 +309,16 @@ export default function TabScreen() {
           <Text style={styles.tabtextColor}>Home</Text>
         </TouchableOpacity>
         <TouchableOpacity
-          onPress={() =>
-            useCallback(() => {
-              setSelectedTab(1);
-            }, [HomeData])
-          }
+          onPress={() => {
+            setSelectedTab(1);
+          }}
           style={[
-            {flex: 1, justifyContent: 'center', alignItems: 'center'},
+            { flex: 1, justifyContent: "center", alignItems: "center" },
             selectedTab == 1
-              ? {borderTopWidth: normalize(3), borderColor: Colors.lightpink}
+              ? { borderTopWidth: normalize(3), borderColor: Colors.lightpink }
               : {},
-          ]}>
+          ]}
+        >
           <Image
             source={selectedTab == 1 ? starUnfilled : starBlack}
             resizeMode="contain"

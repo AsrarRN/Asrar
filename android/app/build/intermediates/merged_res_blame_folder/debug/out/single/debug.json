@@ -1,130 +1,130 @@
 [
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_node_modules_reactnative_libraries_logbox_ui_logboximages_chevronleft.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/node_modules_reactnative_libraries_logbox_ui_logboximages_chevronleft.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_src_assets_images_star_black.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/src_assets_images_star_black.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.practicaltask.app-main-39:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_src_assets_images_star_unfilled.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/src_assets_images_star_unfilled.png"
+        "merged": "com.practicaltask.app-merged_res-43:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.practicaltask.app-main-45:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_src_assets_images_rnicon.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/src_assets_images_rnicon.png"
+        "merged": "com.practicaltask.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.practicaltask.app-main-45:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.practicaltask.app-main-39:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_src_assets_images_rnicon.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/src_assets_images_rnicon.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+        "merged": "com.practicaltask.app-merged_res-43:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.practicaltask.app-main-45:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_src_assets_images_email.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/src_assets_images_email.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_src_assets_images_email.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/src_assets_images_email.png"
+        "merged": "com.practicaltask.app-merged_res-43:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.practicaltask.app-main-45:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_src_assets_images_star_black.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/src_assets_images_star_black.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_src_assets_images_passwordcolor.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/src_assets_images_passwordcolor.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.practicaltask.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.practicaltask.app-main-39:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_node_modules_reactnative_libraries_logbox_ui_logboximages_alerttriangle.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/node_modules_reactnative_libraries_logbox_ui_logboximages_alerttriangle.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.practicaltask.app-main-39:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_src_assets_images_star_unfilled.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/src_assets_images_star_unfilled.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_src_assets_images_home_black.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/src_assets_images_home_black.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_node_modules_reactnative_libraries_logbox_ui_logboximages_loader.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/node_modules_reactnative_libraries_logbox_ui_logboximages_loader.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_node_modules_reactnative_libraries_logbox_ui_logboximages_close.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/node_modules_reactnative_libraries_logbox_ui_logboximages_close.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_src_assets_images_profile.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/src_assets_images_profile.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_src_assets_images_profile.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/src_assets_images_profile.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.practicaltask.app-main-39:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.practicaltask.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.practicaltask.app-main-45:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_src_assets_images_home_unfilled.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/src_assets_images_home_unfilled.png"
+        "merged": "com.practicaltask.app-merged_res-43:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.practicaltask.app-main-45:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable_rn_edit_text_material.xml.flat",
-        "source": "com.practicaltask.app-main-39:/drawable/rn_edit_text_material.xml"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.practicaltask.app-main-39:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_src_assets_images_home_unfilled.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/src_assets_images_home_unfilled.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_src_assets_images_home_black.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/src_assets_images_home_black.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_node_modules_reactnative_libraries_logbox_ui_logboximages_alerttriangle.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/node_modules_reactnative_libraries_logbox_ui_logboximages_alerttriangle.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_node_modules_reactnative_libraries_logbox_ui_logboximages_chevronright.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/node_modules_reactnative_libraries_logbox_ui_logboximages_chevronright.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_src_assets_images_emailcolor.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/src_assets_images_emailcolor.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_src_assets_images_emailcolor.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/src_assets_images_emailcolor.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.practicaltask.app-main-45:/drawable/rn_edit_text_material.xml"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.practicaltask.app-main-39:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_node_modules_reactnative_libraries_logbox_ui_logboximages_close.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/node_modules_reactnative_libraries_logbox_ui_logboximages_close.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.practicaltask.app-main-39:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "com.practicaltask.app-merged_res-43:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.practicaltask.app-main-45:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_node_modules_reactnative_libraries_logbox_ui_logboximages_loader.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/node_modules_reactnative_libraries_logbox_ui_logboximages_loader.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_src_assets_images_password.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/src_assets_images_password.png"
+        "merged": "com.practicaltask.app-merged_res-43:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.practicaltask.app-main-45:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_src_assets_images_password.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/src_assets_images_password.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.practicaltask.app-main-39:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "com.practicaltask.app-merged_res-43:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.practicaltask.app-main-45:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_src_assets_images_passwordcolor.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/src_assets_images_passwordcolor.png"
+        "merged": "com.practicaltask.app-merged_res-43:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.practicaltask.app-main-45:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.practicaltask.app-merged_res-37:/drawable-mdpi_node_modules_reactnative_libraries_logbox_ui_logboximages_chevronright.png.flat",
-        "source": "com.practicaltask.app-main-39:/drawable-mdpi/node_modules_reactnative_libraries_logbox_ui_logboximages_chevronright.png"
+        "merged": "com.practicaltask.app-merged_res-43:/drawable-mdpi_node_modules_reactnative_libraries_logbox_ui_logboximages_chevronleft.png.flat",
+        "source": "com.practicaltask.app-main-45:/drawable-mdpi/node_modules_reactnative_libraries_logbox_ui_logboximages_chevronleft.png"
     }
 ]
